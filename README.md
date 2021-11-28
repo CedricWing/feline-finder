@@ -46,7 +46,3 @@ Images from:
 
 - [4k Wallpapers](https://free4kwallpapers.com/nature/green-landscape-with-single-tree-wallpaper--DkYn)
 - [mForums](https://mforum.ist/media/running-cat-gif.17437/)
-
-```
-
-```
