@@ -34,10 +34,6 @@ npm test
 - [Typescript](https://www.typescriptlang.org/)
 - [CATApi](https://thecatapi.com/)
 
-```
-
-```
-
 # Disclaimer & Credits
 
 This is a test project and is not for commercial use
