@@ -1,0 +1,96 @@
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+  }
+  th {
+    text-align: inherit;
+  }
+}
+.table thead th {
+  vertical-align: bottom;
+  border-top: none;
+}
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.cat-breed-list-title {
+  margin-top: 20vh;
+  margin-bottom: 0.5em;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  span {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: grey;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .cat-breed-list-title {
+    margin-top: 18vh;
+  }
+}
+@media (max-width: 530px) {
+  .cat-breed-list-title {
+    margin-top: 12vh;
+  }
+}
+.table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+@media (max-width: 768px) {
+  .table {
+    min-width: 0px;
+  }
+}

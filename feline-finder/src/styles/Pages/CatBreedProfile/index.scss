@@ -1,0 +1,128 @@
+.breed-profile {
+  margin-top: 20vh;
+  padding: 2em;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+}
+
+.profile-ratings-card {
+  border: 1px solid #dee2e6;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  font-family: cursive;
+  .profile-ratings-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .profile-ratings-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .profile-ratings-items {
+      flex: 1 0 33%;
+      margin: 5px;
+      label {
+        width: 200px;
+      }
+    }
+  }
+}
+
+.profile-main-card {
+  border: 1px solid #dee2e6;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  font-family: cursive;
+  .profile-main-avatar {
+    .profile-main-avatar-name {
+      font-weight: bold;
+      font-size: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #009879;
+    }
+  }
+
+  .profile-main-description {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    div {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      label {
+        font-weight: bold;
+      }
+    }
+  }
+}
+.back-btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #009879;
+  color: #f3f3f3;
+  box-shadow: -6px 8px 10px rgb(81 41 10 / 10%), 0px 2px 2px rgb(81 41 10 / 20%);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 1em;
+}
+.back-btn:hover {
+  color: #482307;
+  background-color: transparent;
+  border: 1 solid #e5e7eb;
+  box-shadow: -6px 8px 10px rgb(81 41 10 / 10%), 0px 2px 2px rgb(81 41 10 / 20%);
+}
+
+@media (max-width: 768px) {
+  .breed-profile {
+    margin-top: 18vh;
+  }
+  .profile-main-card {
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .profile-main-avatar {
+    text-align: center;
+    img {
+      width: 150px !important;
+      height: 150px !important;
+    }
+  }
+  .profile-main-avatar-name {
+    width: 100% !important;
+  }
+  .profile-ratings-items {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .profile-main-card {
+    font-size: 12px !important;
+  }
+  .profile-ratings-items {
+    font-size: 12px;
+  }
+}
