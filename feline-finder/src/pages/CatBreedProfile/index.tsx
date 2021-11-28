@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import pick from 'lodash/pick';

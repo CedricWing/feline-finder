@@ -60,7 +60,6 @@ const RadioDropDown = <T,>(
       const element = dropdownRef.current as unknown as HTMLElement;
       if (element && !element.contains(event.target as Node)) {
         const x = document.getElementById('dropdown-menu');
-        const btn = document.getElementById(DROPDOWN_ID);
         if (x && x.style.display !== 'none') {
           x.style.display = 'none';
         }
