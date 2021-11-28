@@ -10,7 +10,19 @@ Feline Finder is a catalog web application that allows a user to:
 
 Requires node.js
 
-Start Local Development Server (default on port 3000):
+In main folder, install dependencies (typescript, eslint):
+
+```
+npm install
+```
+
+In project folder, install project specific dependencies ('feline-finder/feline-finder'):
+
+```
+npm start
+```
+
+In project folder, start local development server (port 3000):
 
 ```
 npm start
